@@ -1,0 +1,137 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    /*font-family: 'Italianno', cursive;*/
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.hr-style{
+    border: 5px dotted black;
+    width: 50px;
+    border-bottom: none;
+}
+
+ /*header design starts*/
+header{
+    background-image: url("images/banner-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bar-icon{
+    color: white;
+    border: white;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1% 10%;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.nav-link:hover{
+    background-color: rgb(44, 148, 253,0.7);
+    color: white;
+    transform: scale(1.1);
+}
+.banner-container{
+    height: 100vh;
+    margin: auto 10%;
+}
+.banner-contents h1{
+    font-size: 4rem;
+    font-family: 'Italianno', cursive;
+    color: white;
+    background-color: rgba(53, 116, 251, 0.7);
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+/*feature section design starts*/
+#features{
+    background-color: #78c4d7;
+    padding: 5% 10% ;
+}
+.icon-style{
+    background: #BFEAF5;
+    color: white;
+    padding: 15px;
+}
+.feature-card{
+    background-color: #78c4d7;
+    padding: 15px;
+    margin: 20px 10px;
+    text-align: center;
+    border: 2px solid #BFEAF5;
+    transition: .3s;
+}
+.feature-card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+/*about-me section design starts*/
+#about-me{
+    background-color: #BFEAF5;
+    padding: 5% 10%;
+}
+
+/*tutorial section design starts*/
+#tutorial{
+    background-color: #78c4d7;
+    padding: 5% 10%;
+}
+#tutorial .card{
+    transition: .4s;
+}
+#tutorial .card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+/*feedback section design starts*/
+#feedback{
+    background-color: #BFEAF5;
+    padding: 5% 10%;
+}
+.feedback-img{
+    width: 250px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.carousel-item{
+    font-style: italic;
+    padding: 7% 15%;
+}
+
+/*contact section design starts*/
+#contact{
+    background-color: #78c4d7;
+    padding: 5% 10%;
+}
+
+/*footer section design starts*/
+footer{
+    background-color: #318297;
+    padding: 2% 10%;
+}
+footer a{
+    color: white;
+    padding: 0 10px;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+footer a:hover{
+    color: black;
+}
